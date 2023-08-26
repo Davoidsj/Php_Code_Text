@@ -2,7 +2,7 @@
 
 
 $str = "Hello world. This world is nice.";
-echo substr($str,10,-1);
+echo substr($str,10,-10);
 
 
 ?>
