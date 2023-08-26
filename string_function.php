@@ -2,7 +2,7 @@
 
 $str ="Hello world. This world is nice.";
 
-echo strpbrk($str,"wo");
+echo strpbrk($str,"oo");
 
 
 
