@@ -8,7 +8,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-<form action="testForm.php" method="get">
+<form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
 
 <div class="hero m-12">
     <div class="card flex-shrink-0 w-72 shadow-2xl bg-base-100">
@@ -27,13 +27,23 @@
         </div>
         
         <div class="form-control mt-6">
-        <input type="submit" name="save" class="btn btn-primary" value="Save" />
+        <input type="submit" name="submit" class="btn btn-primary" value="Save" />
         </div>
       </div>
     </div>
   </div>
 
 </form>
+
+<?php
+if(isset($_POST['submit'])){
+  echo $_POST['email']."<br/>";
+  echo $_POST['name']."<br/>";
+}
+
+
+
+?>
 
    
 </body>
