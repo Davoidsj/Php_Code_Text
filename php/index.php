@@ -6,7 +6,8 @@
     <title>News Website</title>
 </head>
 <body>
-    <?php include 'header.php'; ?>
+<?php require_once "header.php";?>
+
 
     <div class="content">
         <h1>Welcome to our News Website</h1>
