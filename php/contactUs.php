@@ -12,7 +12,7 @@
     <div class="content">
         <h1>Contact Us</h1>
         <p>Feel free to get in touch with us for any inquiries or feedback.</p>
-        <!-- Your contact form or contact information can go here -->
+    
     </div>
 
     <?php include 'footer.php'; ?>
